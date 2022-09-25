@@ -38,8 +38,10 @@ pip install -r requirements.txt
 - Download weights from [link](https://github.com/RizwanMunawar/yolov7-segmentation/releases/download/yolov7-segmentation/yolov7-seg.pt) and store in "yolov7-segmentation" directory.
 
 - Option to Fix cuda not found and to fix AttributeError: module 'distutils' has no attribute 'version' <br/>
-pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html <br/>
-pip install setuptools==59.5.0 <br/>              
+pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+```
+pip install setuptools==59.5.0
+```
 - Run the code with mentioned command below.
 ```
 #for segmentation with detection
