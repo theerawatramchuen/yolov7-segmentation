@@ -44,13 +44,13 @@ pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu1
 pip install setuptools==59.5.0
 ```
 - Run the code with mentioned command below.
-```
+
 #for segmentation with detection
 python3 segment/predict.py --weights yolov7-seg.pt --source "videopath.mp4"
 
 #for segmentation with detection + Tracking
 python3 segment/predict.py --weights yolov7-seg.pt --source "videopath.mp4" --trk
-```
+
 
 - Output file will be created in the working directory with name <b>yolov7-segmentation/runs/predict-seg/exp/"original-video-name.mp4"</b>
 
