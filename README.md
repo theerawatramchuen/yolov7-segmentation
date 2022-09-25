@@ -35,7 +35,7 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-- Download weights from [link](https://github.com/RizwanMunawar/yolov7-segmentation/releases/download/yolov7-segmentation/yolov7-seg.pt) and store in "yolov7-segmentation" directory. Or use 7zip to unzip yolov7-seg.7z.001
+- Download weights from [link](https://github.com/RizwanMunawar/yolov7-segmentation/releases/download/yolov7-segmentation/yolov7-seg.pt) and store in "yolov7-segmentation" directory. Or use 7zip to unzip "yolov7-seg.7z.001-004"
 
 - Option to Fix cuda not found and to fix AttributeError: module 'distutils' has no attribute 'version' 
 ```
