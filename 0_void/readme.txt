@@ -1,0 +1,1 @@
+python segment/train.py --data 0_void/custom.yaml --batch 1 --weights yolov7-seg.pt --cfg 0_void/yolov7-seg-1c.yaml --name void --img 640 --hyp hyp.scratch-high.yaml --device 0 --epochs 10
