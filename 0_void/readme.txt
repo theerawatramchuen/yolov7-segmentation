@@ -1,4 +1,4 @@
-# Script for model development
+# Script for custom dataset model development
 ## Training the model
 
 cd yolov7-segmentation
