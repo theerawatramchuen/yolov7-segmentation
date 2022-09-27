@@ -13,19 +13,10 @@ https://github.com/theerawatramchuen/yolov7-segmentation.git
 ```
 cd yolov7-segmentation
 ```
-- Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
+- Create a virtual envirnoment
 ```
-### For Linux Users
-python3 -m venv yolov7seg
-source yolov7seg/bin/activate
-
-### For Window Users
-python3 -m venv yolov7seg
-cd yolov7seg
-cd Scripts
-activate
-cd ..
-cd ..
+conda create -n yolov7seg python=3.8
+conda activate yolov7seg
 ```
 - Upgrade pip with mentioned command below.
 ```
