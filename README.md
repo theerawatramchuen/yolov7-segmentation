@@ -7,7 +7,7 @@
 
 - Clone the repository
 ```
-git clone https://github.com/RizwanMunawar/yolov7-segmentation.git
+https://github.com/theerawatramchuen/yolov7-segmentation.git
 ```
 - Goto the cloned folder.
 ```
@@ -29,7 +29,7 @@ cd ..
 ```
 - Upgrade pip with mentioned command below.
 ```
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 ```
 - Install requirements with mentioned command below.
 ```
